@@ -1,2 +1,2 @@
-# orddr-crepe---frontend
-simple Next app for ordering crepes and manage orders
+# order crepe - frontend
+ simple Next js app fro ordering crepes and manages orders

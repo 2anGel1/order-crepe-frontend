@@ -1,0 +1,70 @@
+[
+    {
+      "id": 1,
+      "name": "Fettuccine de crêpes",
+      "description": "Délicieuses crêpes roulées et coupées en fines lanières, nappées de Nutella ou d'Oreo fondant.",
+      "prices": [
+        { "size": "Mini bol Nutella", "price": 2500 },
+        { "size": "Grand bol Nutella", "price": 3500 },
+        { "size": "Mini bol Oreo", "price": 3000 },
+        { "size": "Grand bol Oreo", "price": 4500 }
+      ],
+      "images": ["/images/fettuccine1.png", "/images/fettuccine2.png"],
+      "preparationTime": 15,
+      "rating": 4.8,
+      "popular": true
+    },
+    {
+      "id": 2,
+      "name": "Crêpes au chocolat",
+      "description": "Crêpes classiques garnies d'une généreuse couche de chocolat fondant.",
+      "prices": [
+        { "size": "5 crêpes", "price": 1500 },
+        { "size": "10 crêpes", "price": 3000 }
+      ],
+      "images": ["/images/fettuccine3.png", "/images/fettuccine4.png"],
+      "preparationTime": 10,
+      "rating": 4.5,
+      "popular": true
+    },
+    {
+      "id": 3,
+      "name": "Crêpes Nutella",
+      "description": "Crêpes fourrées au Nutella crémeux, parfaites pour les amateurs de noisettes.",
+      "prices": [
+        { "size": "5 crêpes", "price": 1500 },
+        { "size": "10 crêpes", "price": 3000 }
+      ],
+      "images": ["/images/fettuccine1.png", "/images/fettuccine1.png"],
+      "preparationTime": 12,
+      "rating": 4.7,
+      "popular": true
+    },
+    {
+      "id": 4,
+      "name": "Crêpes céréales",
+      "description": "Crêpes garnies de céréales croquantes pour une touche de texture.",
+      "prices": [
+        { "size": "5 crêpes", "price": 1500 },
+        { "size": "10 crêpes", "price": 3000 }
+      ],
+      "images": ["/images/fettuccine3.png", "/images/fettuccine4.png"],
+      "preparationTime": 10,
+      "rating": 4.2,
+      "popular": false
+    },
+    {
+      "id": 5,
+      "name": "Crêpes nature",
+      "description": "Crêpes simples et légères, idéales pour un goût pur et authentique.",
+      "prices": [
+        { "size": "5 crêpes", "price": 1000 },
+        { "size": "10 crêpes", "price": 2000 },
+        { "size": "12 crêpes", "price": 2500 }
+      ],
+      "images": ["/images/fettuccine1.png", "/images/fettuccine2.png"],
+      "preparationTime": 8,
+      "rating": 4.0,
+      "popular": false
+    }
+  ]

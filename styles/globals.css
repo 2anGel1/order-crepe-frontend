@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2C3E50;
+  --secondary: #E74C3C;
+  --accent: #F1C40F;
+  --background: #F8F9FA;
+  --text: #2C3E50;
+  --success: #27AE60;
+  --error: #E74C3C;
+  --warning: #F39C12;
+  --info: #3498DB;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text m-0 font-montserrat;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat font-bold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-secondary text-white px-6 py-3 rounded-lg font-medium 
+           hover:bg-opacity-90 transition-all duration-300 
+           shadow-md hover:shadow-lg transform hover:-translate-y-0.5;
+  }
+
+  .btn-secondary {
+    @apply bg-primary text-white px-6 py-3 rounded-lg font-medium 
+           hover:bg-opacity-90 transition-all duration-300 
+           shadow-md hover:shadow-lg transform hover:-translate-y-0.5;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 transition-all duration-300 
+           hover:shadow-xl transform hover:-translate-y-1;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 rounded-lg border border-gray-200 
+           focus:border-secondary focus:ring-2 focus:ring-secondary/20 
+           transition-all duration-300;
+  }
+
+  .toast {
+    @apply fixed right-4 top-4 z-50 px-6 py-4 rounded-lg shadow-lg 
+           text-white font-medium transition-all duration-300;
+  }
+}
